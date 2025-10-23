@@ -2,10 +2,12 @@ body {
   margin: 0;
   font-family: 'Arimo', sans-serif;
   background-color: #A88768;
+  min-height: 100vh; /* jadi minimal setinggi layar, tapi bisa lebih kalau konten panjang */
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  padding: 2rem; /* beri ruang di sisi agar tidak mepet di layar kecil */
+  box-sizing: border-box;
 }
 
 .container {
@@ -40,7 +42,7 @@ body {
   color: #EFECE7;
   margin-bottom: 10px;
   letter-spacing: 1px;
-  cursor: pointer;
+  cursor: default;
 }
 
 .decorative-line {
@@ -58,7 +60,7 @@ body {
   color: #ffffff;
   font-size: 40px;
   margin: 0 0 20px 0;
-  cursor: pointer;
+  cursor: default;
 }
 
 .address {
@@ -81,14 +83,14 @@ body {
   color: #EFECE7;
   font-weight: 200;
   font-size: 18px;
-  cursor: pointer;
+  cursor: default;
 }
 
 .opening {
   color: #EFECE7;
   font-weight: 200;
   font-size: 18px;
-  cursor: pointer;
+  cursor: default;
 }
 
 .contact {
